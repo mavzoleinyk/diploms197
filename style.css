@@ -9,3 +9,219 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 
 (optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
 */
+
+/* Custom style theme */
+.top-menu{
+    text-align: left;
+}
+.top-menu li a{
+    text-align: center;
+    font-size: 25px;
+}
+.nav__holder{
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+}
+.nav__herologo{
+    background-color: #fff;
+}
+.nav__menu > li > a{
+    font-weight: 400;
+}
+.nav__search-box{
+    z-index: 1;
+}
+.footer--dark{
+    background-color: #262626;
+}
+.footer--dark .textwidget{
+    color: #fff;
+}
+.footer--dark .footer__bottom{
+    background-color: #222;
+}
+.footer--dark .footer__bottom .footer__nav_menu .nav__menu{
+    text-align: center;
+}
+.footer--dark .footer__copyright{
+    text-align: center;
+}
+.socials--nobase a:hover, .socials--nobase a:focus{
+    background-color: transparent!important;
+    opacity: .8;
+}
+.section-posts .entry__article > p{
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+/* Custom elements */
+.btn-solid{
+    background: #1e73be;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+}
+.btn-solid:hover{color: #fff;opacity: .8;}
+
+/* Нижний блок над подвалом */
+.bottom__page{
+    padding: 30px 0;
+    border-top: 1px solid #1e73be;
+    background-color: #e0e0e0;
+}
+.bottom__page-text{
+    font-size: 18px;
+}
+
+/* Секция цифровая информация */
+.section-number{
+    position: relative;
+}
+.section-number::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0, .3);
+}
+.section-number .content-number{
+    background-image: url(../img/content-number-bg.jpg);
+    color: #fff;
+    padding: 15px;
+    position: relative;
+}
+.section-number .content-number p{
+    color: #fff;
+}
+
+.content-number-title{
+    font-size: 56px;
+}
+.content-number-subtitle{
+    font-size: 32px;
+}
+.content-number-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+.content-number-item{
+    display: flex;
+    align-items: start;
+    flex: 1 0 50%;
+    margin-bottom: 50px;
+}
+.content-number-item p{
+    margin-bottom: 0;
+    font-size: 41px;
+    margin-left: 10px;
+    line-height: 41px;
+}
+.content-number-item p span{
+    display: block;
+    font-size: 54px;
+}
+
+/* Секция акций для страницы акций */
+.actions-posts{
+    padding: 15px;
+    color: #fff;
+    position: relative;
+}
+.actions-posts::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0,0,0, .3);
+}
+.content-action-title{
+    font-size: 62px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content-action-container{
+    margin-left: 30px;
+}
+.content-action-item{
+    font-size: 24px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.content-action-item::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: -25px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+}
+
+/* Секция наша команда */
+.content-team-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-team-item{
+    flex: 1 0 32%;
+    margin-left: 15px;
+}
+.content-team-item:first-of-type{
+    margin-left: 0;
+}
+.content-team-item .image{
+    margin-bottom: 15px;
+}
+.team-prof{
+    font-size: 20px;
+}
+.team-name{
+    font-size: 24px;
+    font-weight: 700;
+}
+.team-social{
+    font-size: 16px;
+}
+
+/* Style from donor kupit-diplom-47.com*/
+#document_calk{
+    border-top: none;
+    border-bottom: none;
+    overflow: hidden;
+    background: none;
+    padding: 0;
+    margin-top: 0;
+}
+.widget__custom-form{
+    border-top: 1px solid #4a97c2!important;
+    border-bottom: 1px solid #4a97c2!important;
+    background: #e9edf0!important;
+}
+.title_field{
+    font-size: 13px;
+}
+.cst__sidebar-cosial{
+    display: flex;
+}
+.widget__custom-block .widget-title{
+    color: #171821;
+}
+.block-serp{
+    margin: 24px 0;
+    height: 22.5px;
+    display: block;
+}
+.cst__sidebar-cosial a{
+    margin-right: 15px;
+}
